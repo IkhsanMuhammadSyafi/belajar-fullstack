@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <main>
+      <h1>Contoh Form</h1>
+      <section>
+        <form action="/submit" method="POST">
+          <label for="name">Nama:</label>
+          <input type="text" id="name" name="name" required />
+          <br />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <br />
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
+          <br />
+          <label for="confirm-password">Konfirmasi Password:</label>
+          <input
+            type="password"
+            id="confirm-password"
+            name="confirm-password"
+            required
+          />
+          <br />
+          <label for="date">Tanggal Lahir:</label>
+          <input type="date" id="date" name="date" required />
+          <br />
+          <label for="gender" name="gender">Jenis Kelamin:</label>
+          <select id="gender" name="gender" required>
+            <option value="">Pilih</option>
+            <option value="male">Laki-laki</option>
+            <option value="female">Perempuan</option>
+          </select>
+          <br />
+          <label for="term-condition" id="term-condition">
+            <input
+              type="checkbox"
+              id="term-condition"
+              name="term-condition"
+              required
+            />
+            Saya setuju dengan syarat dan ketentuan
+          </label>
+          <br />
+          <button type="submit">Kirim</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
