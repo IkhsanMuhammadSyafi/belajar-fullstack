@@ -1,0 +1,49 @@
+h1 {
+  color: navy;
+}
+
+h2 {
+  color: gray;
+}
+
+p {
+  color: black;
+}
+
+.highlight {
+  color: green;
+  font-weight: bold;
+}
+
+#special {
+  color: red;
+  font-style: italic;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.kotak {
+  box-sizing: border-box;
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+  padding: 20px;
+  border: 3px solid navy;
+  margin: 40px;
+}
+
+.box-block {
+  display: block;
+  background-color: lightcoral;
+  padding: 10px;
+  margin: 5px;
+}
+
+.box-inline {
+  display: inline;
+  background-color: lightgreen;
+  padding: 10px;
+  margin: 5px;
+}
