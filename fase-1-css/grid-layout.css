@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 10px;
+  padding: 20px;
+  background-color: lightgray;
+}
+
+header {
+  background-color: lightblue;
+  height: 50px;
+  padding: 10px;
+  grid-column: 1 / 4;
+}
+
+aside {
+  background-color: cyan;
+  height: 400px;
+  grid-column: 1 / 2;
+}
+
+main {
+  background-color: rgb(128, 64, 0);
+  height: 400px;
+  grid-column: 2 / 4;
+}
+
+.footer-left {
+  background-color: lightblue;
+  padding: 10px;
+  height: 50px;
+  grid-column: 1 / 3;
+}
+
+.footer-right {
+  background-color: lightblue;
+  padding: 10px;
+  height: 50px;
+}
